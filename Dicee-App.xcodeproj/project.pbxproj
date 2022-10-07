@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84255AA828F04F29007764B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84255AA728F04F29007764B8 /* AppDelegate.swift */; };
-		84255AAA28F04F29007764B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84255AA928F04F29007764B8 /* SceneDelegate.swift */; };
-		84255AAC28F04F29007764B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84255AAB28F04F29007764B8 /* ViewController.swift */; };
-		84255AAF28F04F29007764B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84255AAD28F04F29007764B8 /* Main.storyboard */; };
-		84255AB128F04F2B007764B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84255AB028F04F2B007764B8 /* Assets.xcassets */; };
-		84255AB428F04F2B007764B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84255AB228F04F2B007764B8 /* LaunchScreen.storyboard */; };
+		84255AC928F04F6C007764B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84255ABB28F04F68007764B8 /* Assets.xcassets */; };
+		84255ACA28F04F6C007764B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84255ABD28F04F69007764B8 /* ViewController.swift */; };
+		84255ACC28F04F6C007764B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84255AC128F04F6A007764B8 /* SceneDelegate.swift */; };
+		84255ACD28F04F6C007764B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84255AC328F04F6A007764B8 /* Main.storyboard */; };
+		84255ACF28F04F6C007764B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84255AC628F04F6B007764B8 /* AppDelegate.swift */; };
+		84255AD028F04F6C007764B8 /* Dicee image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84255AC828F04F6C007764B8 /* Dicee image.swift */; };
+		84CC163E28F05E8E0031BD64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CC163D28F05E8E0031BD64 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84255AA428F04F29007764B8 /* Dicee-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dicee-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84255AA728F04F29007764B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84255AA928F04F29007764B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84255AAB28F04F29007764B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84255AAE28F04F29007764B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84255AB028F04F2B007764B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84255AB328F04F2B007764B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84255AB528F04F2B007764B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84255ABB28F04F68007764B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84255ABD28F04F69007764B8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84255AC128F04F6A007764B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84255AC428F04F6A007764B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84255AC528F04F6B007764B8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84255AC628F04F6B007764B8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84255AC828F04F6C007764B8 /* Dicee image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dicee image.swift"; sourceTree = "<group>"; };
+		84CC163D28F05E8E0031BD64 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		84255AA628F04F29007764B8 /* Dicee-App */ = {
 			isa = PBXGroup;
 			children = (
-				84255AA728F04F29007764B8 /* AppDelegate.swift */,
-				84255AA928F04F29007764B8 /* SceneDelegate.swift */,
-				84255AAB28F04F29007764B8 /* ViewController.swift */,
-				84255AAD28F04F29007764B8 /* Main.storyboard */,
-				84255AB028F04F2B007764B8 /* Assets.xcassets */,
-				84255AB228F04F2B007764B8 /* LaunchScreen.storyboard */,
-				84255AB528F04F2B007764B8 /* Info.plist */,
+				84255AC628F04F6B007764B8 /* AppDelegate.swift */,
+				84255AC128F04F6A007764B8 /* SceneDelegate.swift */,
+				84255AC728F04F6C007764B8 /* Model */,
+				84255AC228F04F6A007764B8 /* View */,
+				84255ABC28F04F69007764B8 /* Controller */,
+				84CC163D28F05E8E0031BD64 /* LaunchScreen.storyboard */,
+				84255ABB28F04F68007764B8 /* Assets.xcassets */,
+				84255AC528F04F6B007764B8 /* Info.plist */,
 			);
 			path = "Dicee-App";
+			sourceTree = "<group>";
+		};
+		84255ABC28F04F69007764B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84255ABD28F04F69007764B8 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84255AC228F04F6A007764B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84255AC328F04F6A007764B8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84255AC728F04F6C007764B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84255AC828F04F6C007764B8 /* Dicee image.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +126,7 @@
 				TargetAttributes = {
 					84255AA328F04F29007764B8 = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -125,9 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84255AB428F04F2B007764B8 /* LaunchScreen.storyboard in Resources */,
-				84255AB128F04F2B007764B8 /* Assets.xcassets in Resources */,
-				84255AAF28F04F29007764B8 /* Main.storyboard in Resources */,
+				84CC163E28F05E8E0031BD64 /* LaunchScreen.storyboard in Resources */,
+				84255ACD28F04F6C007764B8 /* Main.storyboard in Resources */,
+				84255AC928F04F6C007764B8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,29 +166,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84255AAC28F04F29007764B8 /* ViewController.swift in Sources */,
-				84255AA828F04F29007764B8 /* AppDelegate.swift in Sources */,
-				84255AAA28F04F29007764B8 /* SceneDelegate.swift in Sources */,
+				84255ACF28F04F6C007764B8 /* AppDelegate.swift in Sources */,
+				84255AD028F04F6C007764B8 /* Dicee image.swift in Sources */,
+				84255ACA28F04F6C007764B8 /* ViewController.swift in Sources */,
+				84255ACC28F04F6C007764B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84255AAD28F04F29007764B8 /* Main.storyboard */ = {
+		84255AC328F04F6A007764B8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84255AAE28F04F29007764B8 /* Base */,
+				84255AC428F04F6A007764B8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		84255AB228F04F2B007764B8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84255AB328F04F2B007764B8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G29RW88958;
@@ -295,6 +317,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +325,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Yurii-Popleta.Dicee-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,6 +340,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G29RW88958;
@@ -323,6 +351,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +359,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Yurii-Popleta.Dicee-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
